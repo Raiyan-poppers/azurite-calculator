@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+3:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0;
+}
+a, p, ul, li{
+        padding: 0;
+        margin: 0;
+}
+body{
+        
+        font-family: 'Roboto', sans-serif;
+}
+.allbody{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    background-color: maroon;
+}
+.bg h1{
+    color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 100px 100px 0 100px;
+
+}
+.bg h2{
+    color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 10px 10px 25px 10px;
+
+}
+.form {
+    text-align: center;
+    padding: 100px;
+}
+.details {
+    width: 15%;
+    padding: 5px;
+}
+.result-line {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.details-label{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+footer{
+   
+    background-color: maroon;
+    padding-bottom: 0px;
+    }
+
+    footer .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer .nav-link{
+            text-transform: uppercase;
+            color: #ffffff;
+            margin-left: 15px;
+            border: 1px solid transparent;
+            border-radius: 3px;
+            padding: 10px 20px;
+            transition: all .4s ease-in-out;
+            font-size: 16px;
+            font-weight: 800;
+          
+        } 
+        footer .nav-link:hover{
+            color: rgb(255, 255, 255);
+        }
+
+      footer p{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 10px 0;
+      }
+      .align-item{
+        align-items: center;
+        padding-top: 10px;
+      }
+      footer .logo{
+        width: 30%;
+        
+      }
+    
